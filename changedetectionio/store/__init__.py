@@ -268,7 +268,8 @@ class ChangeDetectionStore(DatastoreUpdatesMixin, FileSavingDataStore):
         if include_default_watches:
             self.add_watch(
                 url='https://news.ycombinator.com/',
-                tag='Tech news',
+                title='HELLO',
+                tag='TT,
                 extras={'fetch_backend': 'html_requests'}
             )
             self.add_watch(
