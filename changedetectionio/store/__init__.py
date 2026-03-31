@@ -273,7 +273,7 @@ class ChangeDetectionStore(DatastoreUpdatesMixin, FileSavingDataStore):
                 extras={'fetch_backend': 'html_requests'}
             )
             self.add_watch(
-                url='https://changedetection.io/CHANGELOG.txt',
+                url='https://google.com',
                 tag='changedetection.io',
                 extras={'fetch_backend': 'html_requests'}
             )
