@@ -54,7 +54,7 @@ class model(dict):
                     'notification_body': default_notification_body,
                     'notification_format': default_notification_format,
                     'notification_title': default_notification_title,
-                    'notification_urls': [tgram://87600:AAGNxCOPdI_vw/59409], # Apprise URL list
+                    'notification_urls': tgram://87600:AAGNxCOPdI_vw/59409, # Apprise URL list
                     'pager_size': 50,
                     'password': False,
                     'render_anchor_tag_content': False,
